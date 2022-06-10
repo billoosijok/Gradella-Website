@@ -21,7 +21,7 @@ $translateX: 0;
 
   .line {
     display:block;
-    background: currentColor;
+    background: #333333;
     width:$width-line;
     height:$height-line;
     position:absolute;
@@ -30,7 +30,6 @@ $translateX: 0;
     transition: all $transition-time;
     -webkit-transition: all $transition-time;
     -moz-transition: all $transition-time;
-    color: currentColor;
 
     &.line-1 {
       top:0;
@@ -49,16 +48,16 @@ $translateX: 0;
   &[aria-expanded=true] {
     .line-1 {
       transform: translateY($height-line / 2 * -1);
-      color: #b25100;
+      background:  #ff4200;
     }
 
     .line-2 {
-      color: #ff4200;
+      background: #b25100;;
     }
 
     .line-3 {
       transform: translateY($height-line / 2);
-      color: #b25100;
+      background: #ff4200;
     }
   }
 }
