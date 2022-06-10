@@ -122,7 +122,7 @@ h6,
     }
 
     .navbar .navbar-brand {
-        height: 150px;
+        height: 160px;
         width: 150px;
     }
 
@@ -134,8 +134,8 @@ h6,
 @media (max-width: map-get($grid-breakpoints, "md")) {
   .navbar .navbar-brand {
     margin: -10% 0;
-    width: 150px;
-    height: 150px;
+      height: 140px;
+      width: 110px;
   }
 }
 

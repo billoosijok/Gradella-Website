@@ -9347,7 +9347,7 @@ h6,
     text-align: center !important;
   }
   .navbar .navbar-brand {
-    height: 150px;
+    height: 160px;
     width: 150px;
   }
   .navbar-light .navbar-nav .nav-link {
@@ -9357,8 +9357,8 @@ h6,
 @media (max-width: 768px) {
   .navbar .navbar-brand {
     margin: -10% 0;
-    width: 150px;
-    height: 150px;
+    height: 140px;
+    width: 110px;
   }
 }
 @media (min-width: 992px) {
