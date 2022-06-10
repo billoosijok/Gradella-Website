@@ -7004,6 +7004,10 @@ button.bg-dark:focus {
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
 }
 
+.shadow-bold {
+  box-shadow: 0 0rem 1rem rgba(0, 0, 0, 0.7) !important;
+}
+
 .shadow-none {
   box-shadow: none !important;
 }
@@ -9342,6 +9346,10 @@ h6,
 @media (max-width: 992px) {
   .navbar-nav {
     text-align: center !important;
+  }
+  .navbar .navbar-brand {
+    height: 150px;
+    width: 150px;
   }
   .navbar-light .navbar-nav .nav-link {
     padding: 10px 0;
