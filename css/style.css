@@ -9313,9 +9313,8 @@ h6,
 }
 
 .navbar .navbar-brand {
-  width: 190px;
+  width: 140px;
   height: 190px;
-  background-color: white;
   border-radius: 100%;
   margin: -6% 0;
   text-align: center;
@@ -9323,7 +9322,7 @@ h6,
 }
 
 .navbar .navbar-brand img {
-  max-height: 80%;
+  max-height: 100%;
   position: absolute;
   top: 50%;
   left: 50%;
