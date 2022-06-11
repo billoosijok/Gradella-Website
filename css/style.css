@@ -9225,15 +9225,15 @@ h3 {
 }
 #hamburger-icon .line.line-1 {
   top: 0;
-  height: 8px;
-  border-radius: 11px 11px 2.5px 2.5px;
+  height: 9px;
+  border-radius: 100px 100px 2.5px 2.5px;
 }
 #hamburger-icon .line.line-2 {
-  top: 50%;
+  top: calc(50% + 1px);
 }
 #hamburger-icon .line.line-3 {
   height: 7px;
-  top: calc(100% - 3px);
+  top: calc(100% - 2px);
 }
 #hamburger-icon[aria-expanded=true] .line-1 {
   transform: translateY(-2.5px);

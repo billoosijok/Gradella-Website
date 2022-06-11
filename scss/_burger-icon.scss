@@ -32,16 +32,16 @@ $translateX: 0;
     -moz-transition: all $transition-time;
 
     &.line-1 {
-      top:0;
-      height: $height-line + 3px;
-      border-radius: ($height-line + 6) ($height-line + 6) ($height-line / 2) ($height-line / 2);
+      top: 0;
+      height: $height-line + 4px;
+      border-radius: 100px 100px ($height-line / 2) ($height-line / 2);
     }
     &.line-2 {
-      top:50%;
+      top: calc(50% + 1px);
     }
     &.line-3 {
       height: $height-line + 2px;
-      top: calc(100% - 3px);
+      top: calc(100% - 2px);
     }
   }
 
