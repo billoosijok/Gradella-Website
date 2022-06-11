@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <title>Gradella - Bigger than you think</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="gradella narbonne" name="keywords">
-    <meta content="Free HTML Templates" name="description">
+    <meta name="keywords" content="gradella, narbonne, burgers, tacos, food">
+    <meta name="description" content="Because of our passion for great food, we created Gradella to bring you our best recipes. From our family to yours.">
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
@@ -20,17 +20,29 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6BCL34H3R5"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-6BCL34H3R5');
+    </script>
 </head>
 
-<body>
+<body class="animate__animated animate__fast animate__fadeIn">
     <!-- Topbar Start -->
     <div class="container-fluid bg-primary py-3">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 text-center text-lg-left mb-2 mb-lg-0">
                   <div class="d-inline-flex align-items-center">
-                    <span class="text-white pr-3"><i class="fas fa-clock mr-1"></i> 7j / 7 </span>
-                    <span class="text-white pr-3"> 11:30 - 15:00 | 18:30 - 2:00 </span>
+                    <span class="text-white pr-3"><i class="fas fa-clock mr-1"></i> 7j/7 </span>
+                    <span class="text-white pr-3"> 11:30-15:00 | 18:30-2:00 </span>
                 </div>
                 </div>
                 <div class="col-lg-6 text-center text-lg-right">
@@ -54,11 +66,10 @@
     </div>
     <!-- Topbar End -->
 
-
     <!-- Navbar Start -->
     <div class="container-fluid position-relative nav-bar p-0">
         <div class="container-lg position-relative p-0 px-lg-3" style="z-index: 9;">
-            <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-bold p-lg-0">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-bold p-lg-0 animate__animated animate__faster animate__fadeInUp">
                 <a href="index.html" class="navbar-brand d-block d-lg-none">
                     <img src="img/GRADELLA-icon-only.png" />
                 </a>
@@ -85,8 +96,9 @@
     </div>
     <!-- Navbar End -->
 
-    <div class="home-page-header container-fluid py-5 mb-5">
-      <h1 class="display-3 text-white mb-md-4 fixed text-center">Bigger than you think</h1>
+    <div class="home-page-header  container-fluid flex-column py-5 mb-5">
+        <h1 class="display-3 text-white animate__animated animate__fast animate__fadeInUp">Gradella</h1>
+        <p class="display-4 text-white mb-md-4 fixed text-center animate__animated animate__fast animate__delay-1s animate__fadeInUp">Bigger than you think</p>
     </div>
 
     <!-- About Start -->
