@@ -9389,12 +9389,12 @@ h6,
 }
 
 .page-header {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/burger.jpg), no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/bg.jpg), no-repeat center center;
   background-size: cover;
 }
 
 .home-page-header {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/burger.jpg), no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/bg.jpg), no-repeat center center;
   background-size: cover;
   height: 40vw;
   min-height: 300px;
@@ -9436,7 +9436,7 @@ h6,
 }
 .paralax-section img.parallax-layer:nth-of-type(2) {
   top: 100px;
-  right: -100px;
+  right: -150px;
 }
 .paralax-section img.parallax-layer:nth-of-type(3) {
   top: 50px;
