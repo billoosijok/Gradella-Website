@@ -9436,11 +9436,23 @@ h6,
 }
 .paralax-section img.parallax-layer:nth-of-type(2) {
   top: 100px;
-  right: -150px;
+  right: -30%;
 }
 .paralax-section img.parallax-layer:nth-of-type(3) {
   top: 50px;
   left: -100px;
+}
+
+@media (max-width: 992px) {
+
+  .paralax-section img.parallax-layer:nth-of-type(2) {
+    top: 100px;
+    right: -20%;
+  }
+  .paralax-section img.parallax-layer:nth-of-type(3) {
+    top: 50px;
+    left: -100px;
+  }
 }
 
 .btn-play {
