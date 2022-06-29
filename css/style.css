@@ -9389,18 +9389,19 @@ h6,
 }
 
 .page-header {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/bg.jpg), no-repeat center center;
+  background: url(../img/bg.jpg) #444 no-repeat center center;
   background-size: cover;
 }
 
 .home-page-header {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/bg.jpg), no-repeat center center;
+  background:   url(../img/bg.jpg) #444 no-repeat center center;
   background-size: cover;
   height: 40vw;
   min-height: 300px;
   display: flex;
   align-items: center;
   justify-content: center;
+  text-shadow: 0 0 10px black;
 }
 
 .section-title::before {
