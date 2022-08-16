@@ -6,7 +6,8 @@
     <title>Gradella - Bigger than you think</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta name="keywords" content="gradella, narbonne, burgers, tacos, food">
-    <meta name="description" content="Nous travaillons dur pour préparer des plats faits maison en utilisant des ingrédients de qualité supérieur.">
+    <meta name="description"
+          content="Nous travaillons dur pour préparer des plats faits maison en utilisant des ingrédients de qualité supérieur.">
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
@@ -27,7 +28,11 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-6BCL34H3R5"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
         gtag('js', new Date());
 
         gtag('config', 'G-6BCL34H3R5');
@@ -35,224 +40,322 @@
 </head>
 
 <body class="animate__animated animate__fast animate__fadeIn">
-    <!-- Topbar Start -->
-    <div class="container-fluid bg-primary py-3">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 text-center text-lg-left mb-2 mb-lg-0">
-                  <div class="d-inline-flex align-items-center">
+<!-- Topbar Start -->
+<div class="container-fluid bg-primary py-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 text-center text-lg-left mb-2 mb-lg-0">
+                <div class="d-inline-flex align-items-center">
                     <span class="text-white pr-3"><i class="fas fa-clock mr-1"></i> 7j/7 </span>
                     <span class="text-white pr-3"> 11:30-15:00 | 18:30-2:00 </span>
-                  </div>
                 </div>
-                <div class="col-lg-6 text-center text-lg-right">
-                    <div class="d-inline-flex align-items-center">
-                      <a class="text-white px-3" href="https://goo.gl/maps/EQCvDzciU1y2Q24r8">
-                          <i class="fas fa-location-dot"></i>
-                      </a>
-                        <a class="text-white px-3" href="https://www.snapchat.com/add/gradella_11">
-                            <i class="fab fa-snapchat"></i>
-                        </a>
-                        <a class="text-white px-3" href="https://www.tiktok.com/@gradella_11">
-                            <i class="fab fa-tiktok"></i>
-                        </a>
-                        <a class="text-white px-3" href="https://www.instagram.com/gradella_11/">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                    </div>
+            </div>
+            <div class="col-lg-6 text-center text-lg-right">
+                <div class="d-inline-flex align-items-center">
+                    <a class="text-white px-3" href="https://goo.gl/maps/EQCvDzciU1y2Q24r8">
+                        <i class="fas fa-location-dot"></i>
+                    </a>
+                    <a class="text-white px-3" href="https://www.snapchat.com/add/gradella_11">
+                        <i class="fab fa-snapchat"></i>
+                    </a>
+                    <a class="text-white px-3" href="https://www.tiktok.com/@gradella_11">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                    <a class="text-white px-3" href="https://www.instagram.com/gradella_11/">
+                        <i class="fab fa-instagram"></i>
+                    </a>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Topbar End -->
+</div>
+<!-- Topbar End -->
 
-    <!-- Navbar Start -->
-    <div class="container-fluid position-relative nav-bar p-0">
-        <div class="container-lg position-relative p-0 px-lg-3" style="z-index: 9;">
-            <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-bold p-lg-0 animate__animated animate__faster animate__fadeInUp">
-                <a href="index.html" class="navbar-brand d-block d-lg-none">
-                    <img src="img/GRADELLA-icon-only.png" />
+<!-- Navbar Start -->
+<div class="container-fluid position-relative nav-bar p-0">
+    <div class="container-lg position-relative p-0 px-lg-3" style="z-index: 9;">
+        <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-bold p-lg-0 animate__animated animate__faster animate__fadeInUp">
+            <a href="index.html" class="navbar-brand d-block d-lg-none">
+                <img src="img/GRADELLA-icon-only.png"/>
+            </a>
+            <button type="button" id="hamburger-icon" class="d-lg-none" data-toggle="collapse"
+                    data-target="#navbarCollapse">
+                <span class="line line-1"></span>
+                <span class="line line-2"></span>
+                <span class="line line-3"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarCollapse">
+                <div class="navbar-nav justify-content-end ml-auto col-lg-4 p-0">
+                    <a href="index.html" class="nav-item nav-link active">Acceuil</a>
+                    <a href="resources/menu.jpg" target="_blank" class="nav-item nav-link">Menu</a>
+                </div>
+                <a href="index.html" class="navbar-brand mx-5 d-none d-lg-block">
+                    <img src="img/GRADELLA-icon-only.png"/>
                 </a>
-                <button type="button" id="hamburger-icon" class="d-lg-none" data-toggle="collapse" data-target="#navbarCollapse">
-                    <span class="line line-1"></span>
-                    <span class="line line-2"></span>
-                    <span class="line line-3"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-center" id="navbarCollapse">
-                    <div class="navbar-nav justify-content-end ml-auto col-lg-4 p-0">
-                        <a href="index.html" class="nav-item nav-link active">Acceuil</a>
-                        <a href="resources/menu.jpg" target="_blank" class="nav-item nav-link">Menu</a>
-                    </div>
-                    <a href="index.html" class="navbar-brand mx-5 d-none d-lg-block">
-                          <img src="img/GRADELLA-icon-only.png" />
-                    </a>
-                    <div class="navbar-nav col-lg-4 mr-auto py-0">
-                        <a href="tel:04 34 36 68 40" onclick="gtag('event', 'click_livraison')" class="nav-item nav-link"><i class="fa fa-phone mr-2"></i> Livraison</a>
-                        <a href="https://ubereats.app.link/D1VZwDGx7qb" class="nav-item nav-link"><i class="fa fa-shopping-bag mr-2"></i> Uber Eats</a>
-                    </div>
-                </div>
-            </nav>
-        </div>
-    </div>
-    <!-- Navbar End -->
-
-    <div class="home-page-header  container-fluid flex-column py-5 mb-5">
-        <h1 class="display-3 text-white animate__animated animate__fast animate__delay-1s animate__fadeInUp">Gradella</h1>
-        <p class="display-4 text-white mb-md-4 fixed text-center animate__animated animate__faster animate__delay-2s animate__fadeInUp">Bigger than you think</p>
-    </div>
-
-    <!-- About Start -->
-    <div class="container-fluid py-3 py-lg-5 overflow-hidden">
-        <div class="container py-3 py-lg-5">
-            <div class="row justify-content-center">
-                <div class="col-lg-7">
-                    <h1 class="section-title position-relative text-center mb-5">Bienvenue</h1>
+                <div class="navbar-nav col-lg-4 mr-auto py-0">
+                    <a href="tel:04 34 36 68 40" onclick="gtag('event', 'click_livraison')" class="nav-item nav-link"><i
+                            class="fa fa-phone mr-2"></i> Livraison</a>
+                    <a href="https://ubereats.app.link/D1VZwDGx7qb" class="nav-item nav-link"><i
+                            class="fa fa-shopping-bag mr-2"></i> Uber Eats</a>
                 </div>
             </div>
+        </nav>
+    </div>
+</div>
+<!-- Navbar End -->
+
+<div class="home-page-header  container-fluid flex-column py-5 mb-5">
+    <h1 class="display-3 text-white animate__animated animate__fast animate__delay-1s animate__fadeInUp">Gradella</h1>
+    <p class="display-4 text-white mb-md-4 fixed text-center animate__animated animate__faster animate__delay-2s animate__fadeInUp">
+        Bigger than you think</p>
+</div>
+
+<!-- About Start -->
+<div class="container-fluid py-3 py-lg-5 overflow-hidden">
+    <div class="container py-3 py-lg-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-7">
+                <h1 class="section-title position-relative text-center mb-5">Bienvenue</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-5" style="min-height: 400px;">
+                <div class="position-relative h-100 paralax-section" style="perspective: 1000px;">
+                    <img class="position-absolute rounded w-100 h-100" src="img/3-burgers.jpg"
+                         style="object-fit: cover;">
+                    <img class="parallax-layer rounded position-absolute" src="img/homemade.png" height="250">
+                </div>
+            </div>
+            <div class="col-lg-1"></div>
+            <div class="col-lg-6 py-5">
+                <p>Nous avons créé Gradella afin de pouvoir vous apporter, de notre maison à la vôtre, nos meilleures
+                    recettes. Nous travaillons dur pour préparer des plats faits maison en utilisant des ingrédients de
+                    qualité supérieur.</p>
+                <p>Vous pouvez déguster nos burgers et sandwichs maison:</p>
+                <h5 class="text-muted mb-3"><i class="fa fa-check text-secondary mr-3"></i>À emporter</h5>
+                <h5 class="text-muted mb-3"><i class="fa fa-check text-secondary mr-3"></i>En Livraison à domicile</h5>
+                <h5 class="text-muted mb-3"><i class="fa fa-check text-secondary mr-3"></i>Avec Uber Eats</h5>
+                <div class="row">
+                    <a href="resources/menu.jpg" class="btn btn-primary mt-4 mr-2"><i class="fa fa-list mr-2"></i> Menu</a>
+                    <a href="tel:04 34 36 68 40" onclick="gtag('event', 'click_livraison')"
+                       class="btn btn-secondary mt-4"><i class="fa fa-phone mr-2"></i> Livraison</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- About End -->
+
+<!-- Promotion Start -->
+<div class="container-fluid mt-5 pt-5 px-0" id="menu-container">
+    <div class="row bg-primary m-0">
+        <div class="container">
             <div class="row">
-                <div class="col-lg-5" style="min-height: 400px;">
-                    <div class="position-relative h-100 paralax-section" style="perspective: 1000px;">
-                        <img class="position-absolute rounded w-100 h-100" src="img/3-burgers.jpg" style="object-fit: cover;">
-                        <img class="parallax-layer rounded position-absolute" src="img/homemade.png" height="250">
-                    </div>
+                <div class="col-md-5 py-5 justify-content-center">
+                        <h3 class="font-weight-bold  text-center mt-1 mb-5">Découvrez Notre Menu</h3>
+                    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="pills-home-tab" data-toggle="pill"
+                                    data-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                                    aria-selected="true">Burger
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-profile-tab" data-toggle="pill"
+                                    data-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                                    aria-selected="false">Naan
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-contact-tab" data-toggle="pill"
+                                    data-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                                    aria-selected="false">Salade
+                            </button>
+                        </li>
+                    </ul>
                 </div>
-                <div class="col-lg-1"></div>
-                <div class="col-lg-6 py-5">
-                    <p>Nous avons créé Gradella afin de pouvoir vous apporter, de notre maison à la vôtre, nos meilleures recettes. Nous travaillons dur pour préparer des plats faits maison en utilisant des ingrédients de qualité supérieur.</p>
-                    <p>Vous pouvez déguster nos burgers et sandwichs maison:</p>
-                    <h5 class="text-muted mb-3"><i class="fa fa-check text-secondary mr-3"></i>À emporter</h5>
-                    <h5 class="text-muted mb-3"><i class="fa fa-check text-secondary mr-3"></i>En Livraison à domicile</h5>
-                    <h5 class="text-muted mb-3"><i class="fa fa-check text-secondary mr-3"></i>Avec Uber Eats</h5>
-                    <div class="row">
-                      <a href="resources/menu.jpg" class="btn btn-primary mt-4 mr-2"><i class="fa fa-list mr-2"></i> Menu</a>
-                      <a href="tel:04 34 36 68 40" onclick="gtag('event', 'click_livraison')" class="btn btn-secondary mt-4"><i class="fa fa-phone mr-2"></i> Livraison</a>
+                <div class="col-md-7 px-0 px-md-5" style="min-height: 400px;">
+                    <!-- Carousel Start -->
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                             aria-labelledby="pills-home-tab">
+                            <div id="burger-carousel" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="img/burgers/ALASKA.JPEG" alt="Burger Alaska" loading="lazy">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/burgers/BUFFALO.JPEG" alt="Burger Buffalo" loading="lazy">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/burgers/CUBA.JPEG" alt="Burger Cuba" loading="lazy">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/burgers/DA VINCI.JPEG" alt="Burger Da Vinci" loading="lazy">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/burgers/DRAGON.JPEG" alt="Burger Dragon" loading="lazy">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/burgers/GRADELLA.JPEG" alt="Burger Gradella" loading="lazy">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/burgers/HOTCHICK.JPEG" alt="Burger Hot Chick" loading="lazy">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/burgers/LEHONY.JPEG" alt="Burger Le Honey" loading="lazy">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/burgers/MONALISA.JPEG" alt="Burger Mona Lisa" loading="lazy">
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#burger-carousel" data-slide="prev">
+                                    <div class="btn btn-secondary px-0" style="width: 45px; height: 45px;">
+                                        <span class="carousel-control-prev-icon mb-n1"></span>
+                                    </div>
+                                </a>
+                                <a class="carousel-control-next" href="#burger-carousel" data-slide="next">
+                                    <div class="btn btn-secondary px-0" style="width: 45px; height: 45px;">
+                                        <span class="carousel-control-next-icon mb-n1"></span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-profile" role="tabpanel"
+                             aria-labelledby="pills-profile-tab">
+                            <div id="naan-carousel" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="img/naan/TANDOORI.jpg" alt="Naan Tandoori" loading="lazy">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/naan/CURRY.jpg" alt="Naan Curry" loading="lazy">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/naan/GRADELLA.jpg" alt="Naan Gradella" loading="lazy">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/naan/BURGER.jpg" alt="Naan Burger" loading="lazy">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/naan/KABAB.jpg" alt="Naan Kebab" loading="lazy">
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#naan-carousel" data-slide="prev">
+                                    <div class="btn btn-secondary px-0" style="width: 45px; height: 45px;">
+                                        <span class="carousel-control-prev-icon mb-n1"></span>
+                                    </div>
+                                </a>
+                                <a class="carousel-control-next" href="#naan-carousel" data-slide="next">
+                                    <div class="btn btn-secondary px-0" style="width: 45px; height: 45px;">
+                                        <span class="carousel-control-next-icon mb-n1"></span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-contact" role="tabpanel"
+                             aria-labelledby="pills-contact-tab"><div id="salade-carousel" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="img/salade/SALAD.jpg" alt="Salade de poulet grilleé" loading="lazy">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/salade/CHEVRE.jpg" alt="Salade chévre miel" loading="lazy">
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#salade-carousel" data-slide="prev">
+                                <div class="btn btn-secondary px-0" style="width: 45px; height: 45px;">
+                                    <span class="carousel-control-prev-icon mb-n1"></span>
+                                </div>
+                            </a>
+                            <a class="carousel-control-next" href="#salade-carousel" data-slide="next">
+                                <div class="btn btn-secondary px-0" style="width: 45px; height: 45px;">
+                                    <span class="carousel-control-next-icon mb-n1"></span>
+                                </div>
+                            </a>
+                        </div>
+                        </div>
+                    </div>
+                    <!-- Carousel End -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Promotion End -->
+    <div class="container">
+        <div class="row py-5">
+            <div class="col-md-6">
+                <div class="row d-block text-center text-md-left">
+                    <h3 class="font-weight-bold mt-3 mb-4">Découvrez Nos Goûts</h3>
+                    <p class=" mb-4">Chacun fait à la perfection</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="h-100">
+                    <div class="row justify-content-center">
+                        <a href="tel:04 34 36 68 40" class="btn btn-secondary mt-4 mr-2 py-3"><i
+                                class="fa fa-phone mr-2"></i> Commandez</a>
+                        <a href="https://ubereats.app.link/D1VZwDGx7qb"
+                           class="btn btn-outline-primary mt-4 mr-2 py-3"><i
+                                class="fa fa-shopping-bag mr-2"></i> Uber Eats</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- About End -->
-
-    <!-- Promotion Start -->
-    <div class="container-fluid mt-5 pt-5 px-0">
-
-          <div class="row bg-primary m-0">
-            <div class="container">
-              <div class="row">
-                <div class="col-md-6 px-0" style="min-height: 500px;">
-                  <!-- Carousel Start -->
-                    <div id="burger-carousel" class="carousel slide" data-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img class="w-100" src="img/burgers/ALASKA.JPEG" alt="Image" loading="lazy">
-                            </div>
-                            <div class="carousel-item">
-                                <img class="w-100" src="img/burgers/BUFFALO.JPEG" alt="Image" loading="lazy">
-                            </div>
-                            <div class="carousel-item">
-                                <img class="w-100" src="img/burgers/CUBA.JPEG" alt="Image" loading="lazy">
-                            </div>
-                            <div class="carousel-item">
-                                <img class="w-100" src="img/burgers/DA VINCI.JPEG" alt="Image" loading="lazy">
-                            </div>
-                            <div class="carousel-item">
-                                <img class="w-100" src="img/burgers/DRAGON.JPEG" alt="Image" loading="lazy">
-                            </div>
-                            <div class="carousel-item">
-                                <img class="w-100" src="img/burgers/GRADELLA.JPEG" alt="Image" loading="lazy">
-                            </div>
-                            <div class="carousel-item">
-                                <img class="w-100" src="img/burgers/HOTCHICK.JPEG" alt="Image" loading="lazy">
-                            </div>
-                            <div class="carousel-item">
-                                <img class="w-100" src="img/burgers/LEHONY.JPEG" alt="Image" loading="lazy">
-                            </div>
-                            <div class="carousel-item">
-                                <img class="w-100" src="img/burgers/MONALISA.JPEG" alt="Image" loading="lazy">
-                            </div>
-
-                        </div>
-                        <a class="carousel-control-prev" href="#burger-carousel" data-slide="prev">
-                            <div class="btn btn-secondary px-0" style="width: 45px; height: 45px;">
-                                <span class="carousel-control-prev-icon mb-n1"></span>
-                            </div>
-                        </a>
-                        <a class="carousel-control-next" href="#burger-carousel" data-slide="next">
-                            <div class="btn btn-secondary px-0" style="width: 45px; height: 45px;">
-                                <span class="carousel-control-next-icon mb-n1"></span>
-                            </div>
-                        </a>
+<!-- Footer Start -->
+<div class="container-fluid footer bg-light py-5">
+    <div class="container text-center py-5">
+        <div class="row">
+            <div class="col-12 mb-4">
+                <a href="index.html" class="navbar-brand m-0">
+                    <img src="img/GRADELLA-icon-only.png" height="200"/>
+                </a>
+            </div>
+            <div class="col-12 mb-4">
+                <a class="btn btn-outline-secondary btn-social mr-2" href="https://www.tiktok.com/@gradella_11"><i
+                        class="fab fa-tiktok"></i></a>
+                <a class="btn btn-outline-secondary btn-social mr-2" href="https://www.snapchat.com/add/gradella_11"><i
+                        class="fab fa-snapchat"></i></a>
+                <a class="btn btn-outline-secondary btn-social" href="https://www.instagram.com/gradella_11/"><i
+                        class="fab fa-instagram"></i></a>
+            </div>
+            <div class="col-12 mt-2 mb-4">
+                <div class="row">
+                    <div class="col-sm-6 text-center text-sm-right border-right mb-3 mb-sm-0">
+                        <h5 class="font-weight-bold mb-2">N'hesitez Pas</h5>
+                        <p class="mb-2"><a href="https://goo.gl/maps/EQCvDzciU1y2Q24r8" target="_blank">15 Rue Ancienne
+                            Prte de Béziers <br/> 11100 Narbonne</a></p>
+                        <p class="mb-0"><a href="tel:04 34 36 68 40">04 34 36 68 40</a></p>
                     </div>
-                  <!-- Carousel End -->
-                </div>
-                <div class="col-md-6 py-5 py-md-0 px-0">
-                  <div class="h-100 d-flex flex-column align-items-center justify-content-center text-center p-5">
-                      <div class="d-flex align-items-center justify-content-center bg-white rounded-circle mb-4"
-                          style="width: 100px; height: 100px;">
-                          <i style="font-size: 3em;" class="text-dark fa-solid fa-utensils"></i>
-                      </div>
-                      <h3 class="font-weight-bold text-white mt-3 mb-4">Découvrez Nos Burgers</h3>
-                      <p class="text-white mb-4">Chacun fait à la perfection</p>
-                      <div class="row justify-content-center">
-                        <a href="tel:04 34 36 68 40" class="btn btn-secondary mt-4 mr-2 py-3"><i class="fa fa-phone mr-2"></i> Commandez</a>
-                        <a href="https://ubereats.app.link/D1VZwDGx7qb" class="btn btn-outline-primary text-white border-white mt-4 mr-2 py-3"><i class="fa fa-shopping-bag mr-2"></i> Uber Eats</a>
-                      </div>
-                  </div>
-              </div>
-            </div>
-            </div>
-          </div>
-    </div>
-    <!-- Promotion End -->
-
-    <!-- Footer Start -->
-    <div class="container-fluid footer bg-light py-5">
-        <div class="container text-center py-5">
-            <div class="row">
-                <div class="col-12 mb-4">
-                    <a href="index.html" class="navbar-brand m-0">
-                        <img src="img/GRADELLA-icon-only.png" height="200" />
-                    </a>
-                </div>
-                <div class="col-12 mb-4">
-                    <a class="btn btn-outline-secondary btn-social mr-2" href="https://www.tiktok.com/@gradella_11"><i class="fab fa-tiktok"></i></a>
-                    <a class="btn btn-outline-secondary btn-social mr-2" href="https://www.snapchat.com/add/gradella_11"><i class="fab fa-snapchat"></i></a>
-                    <a class="btn btn-outline-secondary btn-social" href="https://www.instagram.com/gradella_11/"><i class="fab fa-instagram"></i></a>
-                </div>
-                <div class="col-12 mt-2 mb-4">
-                    <div class="row">
-                        <div class="col-sm-6 text-center text-sm-right border-right mb-3 mb-sm-0">
-                            <h5 class="font-weight-bold mb-2">N'hesitez Pas</h5>
-                            <p class="mb-2"><a href="https://goo.gl/maps/EQCvDzciU1y2Q24r8" target="_blank">15 Rue Ancienne Prte de Béziers <br /> 11100 Narbonne</a></p>
-                            <p class="mb-0"><a href="tel:04 34 36 68 40">04 34 36 68 40</a></p>
-                        </div>
-                        <div class="col-sm-6 text-center text-sm-left">
-                            <h5 class="font-weight-bold mb-2">Nos Horaires</h5>
-                            <p class="mb-2">7j / 7 <br /> 11:30 - 15:00 <br /> 18:30 - 2:00</p>
-                        </div>
+                    <div class="col-sm-6 text-center text-sm-left">
+                        <h5 class="font-weight-bold mb-2">Nos Horaires</h5>
+                        <p class="mb-2">7j / 7 <br/> 11:30 - 15:00 <br/> 18:30 - 2:00</p>
                     </div>
                 </div>
-                <div class="col-12">
-                    <p class="m-0">&copy; <a href="/">Gradella</a>. All Rights Reserved.
-                    </p>
-                </div>
+            </div>
+            <div class="col-12">
+                <p class="m-0">&copy; <a href="/">Gradella</a>. All Rights Reserved.
+                </p>
             </div>
         </div>
     </div>
-    <!-- Footer End -->
+</div>
+<!-- Footer End -->
 
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-secondary px-2 back-to-top"><i class="fa fa-angle-double-up"></i></a>
+<!-- Back to Top -->
+<a href="#" class="btn btn-secondary px-2 back-to-top"><i class="fa fa-angle-double-up"></i></a>
 
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+<!-- JavaScript Libraries -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+<script src="lib/easing/easing.min.js"></script>
+<script src="lib/isotope/isotope.pkgd.min.js"></script>
 
-    <!-- Template Javascript -->
-    <script type="text/javascript" src="js/parallax.js"></script>
-    <script src="js/main.js"></script>
+<!-- Template Javascript -->
+<script type="text/javascript" src="js/parallax.js"></script>
+<script src="js/main.js"></script>
 </body>
 
 </html>

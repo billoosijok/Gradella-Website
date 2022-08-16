@@ -19,6 +19,8 @@
 
 
     $("#burger-carousel").carousel();
+    $("#naan-carousel").carousel();
+    $("#salade-carousel").carousel();
 
     // Back to top button
     $(window).scroll(function () {
