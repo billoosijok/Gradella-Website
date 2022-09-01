@@ -248,8 +248,9 @@ h6,
         }
 
         @media (max-width: map-get($grid-breakpoints, "sm") ) {
+          height: 90vh;
           img {
-            max-height: 90vh;
+            max-height: 100%;
           }
         }
     }

@@ -9459,8 +9459,11 @@ h6,
   }
 }
 @media (max-width: 576px) {
+  #menu-container .carousel-inner {
+    height: 90vh;
+  }
   #menu-container .carousel-inner img {
-    max-height: 90vh;
+    max-height: 100%;
   }
 }
 #menu-container .nav {
