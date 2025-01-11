@@ -298,29 +298,24 @@ h6,
             justify-content: flex-start;
             padding: 0 10px;
             padding-right: 60px;
-
+            margin-right: -30px;
+            
             .nav-item .nav-link {
                 padding: 5px 10px;
                 flex-direction: column;
                 align-items: center;
                 font-size: 15px;
-                &:after {
-                    content: '\0276F';
-                    transform: rotateZ(90deg);
-                    font-size: 0.5em;
-                }
             }
         }
     }
 }
 
 .curtain {
-
     position: absolute;
-    right: -10px;
+    right: -20px;
     top: 0;
     bottom: 0;        
-    width: 120px;
+    width: 30px;
     background: linear-gradient(90deg, rgba(2,0,36,0) 0%, #F3F6FF 60%);            ;
 }
 

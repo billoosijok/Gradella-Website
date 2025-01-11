@@ -107,21 +107,28 @@
 <!-- Promotion Start -->
 <div class="container-fluid" id="menu-container">
     <div class="row ">
-        <div class="container">
+        <div class="container overflow-hidden">
             <div class="pt-5 pb-1 justify-content-center">
                 <h3 class="font-weight-bold  text-center mt-1 mb-5">Découvrez Notre Menu</h3>
                 <div class="position-relative">
-                    <ul class="nav nav-pills mb-3 overflow-scroll" id="pills-tab" role="tablist">
+                    <ul class="nav nav-pills mb-3 overflow-scroll align-items-center" id="pills-tab" role="tablist">
                         <li class="nav-item" role="presentation">
                             <button class="nav-link active" id="pills-home-tab" data-toggle="pill"
                                     data-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
                                     aria-selected="true">Burger
                             </button>
                         </li>
+                        
                         <li class="nav-item" role="presentation">
                             <button class="nav-link" id="pills-smash-tab" data-toggle="pill"
                                     data-target="#pills-smash" type="button" role="tab" aria-controls="pills-smash"
                                     >Smash Burger
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-tacos-tab" data-toggle="pill"
+                                    data-target="#pills-tacos" type="button" role="tab" aria-controls="pills-tacos"
+                                    >Tacos
                             </button>
                         </li>
                         <li class="nav-item" role="presentation">
@@ -191,6 +198,18 @@
                         </div>
                   </div>
                     </div>
+                    <div class="tab-pane fade" id="pills-tacos" role="tabpanel" aria-labelledby="pills-tacos-tab">
+                        <div class="d-md-flex menu-container">
+                          <div class="menu-item col-md-6">
+                            <h6>Simple 9€</h6>
+                            <p>Viande au choix: Kebab, Viande Hachée, Cordon Bleu, Falafel, Nuggets, Tenders.</p>
+                          </div>
+                          <div class="menu-item col-md-6">
+                            <h6>Double 11€</h6>
+                            <p>Deux viandes au choix.</p>
+                          </div>
+                        </div>
+                      </div>
                         <div class="tab-pane fade show" id="pills-smash" role="tabpanel" aria-labelledby="pills-home-tab">
                             <div class="d-md-flex menu-container flex-wrap">
                         <!-- Smash Burger Section -->
