@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Gradella - Bigger than you think</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta name="keywords" content="gradella, narbonne, burgers, tacos, food">
+    <meta name="description"
+          content="#1 Burger et Naan à Narbonne. Snack élégant proposant Burgers, Naan, Kebab et Tacos. Tout est fait maison et fait avec des ingrédients de haute qualité.">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6BCL34H3R5"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'G-6BCL34H3R5');
+    </script>
+</head>
+
+<body class="animate__animated animate__fast animate__fadeIn">
+<!-- Topbar Start -->
+<div class="container-fluid bg-primary py-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 text-center text-lg-left mb-2 mb-lg-0">
+                <div class="d-inline-flex align-items-center">
+                    <span class="text-white pr-3"><i class="fas fa-clock mr-1"></i> 7j/7 </span>
+                    <span class="text-white pr-3"> 11:30-15:00 | 18:30-2:00 </span>
+                </div>
+            </div>
+            <div class="col-lg-6 text-center text-lg-right">
+                <div class="d-inline-flex align-items-center">
+                    <a class="text-white px-3" href="https://goo.gl/maps/EQCvDzciU1y2Q24r8">
+                        <i class="fas fa-location-dot"></i>
+                    </a>
+                    <a class="text-white px-3" href="https://www.snapchat.com/add/gradella_11">
+                        <i class="fab fa-snapchat"></i>
+                    </a>
+                    <a class="text-white px-3" href="https://www.tiktok.com/@gradella_11">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                    <a class="text-white px-3" href="https://www.instagram.com/gradella_11/">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Topbar End -->
+
+<!-- Navbar Start -->
+<div class="container-fluid position-relative nav-bar p-0">
+    <div class="container-lg position-relative p-0 px-lg-3" style="z-index: 9;">
+        <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-bold p-lg-0 animate__animated animate__faster animate__fadeInUp">
+            <a href="index.html" class="navbar-brand d-block d-lg-none animate__animated animate__easeIn animate__faster animate__fadeInUp">
+                <img src="img/GRADELLA-icon-only.png" alt="Gradella logo" />
+            </a>
+            <button type="button" id="hamburger-icon" class="d-lg-none" data-toggle="collapse"
+                    data-target="#navbarCollapse">
+                <span class="line line-1"></span>
+                <span class="line line-2"></span>
+                <span class="line line-3"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarCollapse">
+                <div class="navbar-nav justify-content-end ml-auto col-lg-4 p-0">
+                    <a href="index.html" class="nav-item nav-link">Acceuil</a>
+                    <a href="resources/menu.pdf" target="_blank" class="nav-item nav-link active">Menu</a>
+                </div>
+                <a href="index.html" class="navbar-brand mx-5 d-none d-lg-block animate__animated animate__easeIn animate__faster animate__fadeInUp">
+                    <img src="img/GRADELLA-icon-only.png" alt="Gradella logo" />
+                </a>
+                <div class="navbar-nav col-lg-4 mr-auto py-0">
+                    <a href="tel:04 34 36 68 40" onclick="gtag('event', 'click_livraison')" class="nav-item nav-link"><i
+                            class="fa fa-phone mr-2"></i> Livraison</a>
+                    <a href="https://ubereats.app.link/D1VZwDGx7qb" class="nav-item nav-link"><i
+                            class="fa fa-shopping-bag mr-2"></i> Uber Eats</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+<!-- Navbar End -->
+
+<!-- Promotion Start -->
+<div class="container-fluid px-0" id="menu-container">
+    <div class="row ">
+        <div class="container">
+            <div class="pt-5 pb-1 justify-content-center">
+                <h3 class="font-weight-bold  text-center mt-1 mb-5">Découvrez Notre Menu</h3>
+                <ul class="nav nav-pills mb-3 overflow-scroll" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="pills-home-tab" data-toggle="pill"
+                                data-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                                aria-selected="true">Burger
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-smash-tab" data-toggle="pill"
+                                data-target="#pills-smash" type="button" role="tab" aria-controls="pills-smash"
+                                >Smash Burger
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-profile-tab" data-toggle="pill"
+                                data-target="#pills-naan" type="button" role="tab" aria-controls="pills-profile"
+                                aria-selected="false">Naan
+                        </button>
+                    </li>
+                    
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-contact-tab" data-toggle="pill"
+                                data-target="#pills-tapas" type="button" role="tab" aria-controls="pills-contact"
+                                aria-selected="false">Tapas
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-contact-tab" data-toggle="pill"
+                                data-target="#pills-assiettes" type="button" role="tab" aria-controls="pills-contact"
+                                aria-selected="false">Assiettes
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="row bg-light py-4">
+        <div class="container">
+            <div class="px-0 px-md-5">
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                      <div class="d-md-flex menu-container flex-wrap">
+                  
+                        <!-- Burgers Section -->
+                        <div class="menu-item col-md-6">
+                          <h6>Cuba 8€</h6>
+                          <p>Steak frais 130g, cheddar, cornichons, salade, tomates, oignons caramélisés. Sauce au choix.</p>
+                        </div>
+                        <div class="menu-item col-md-6">
+                          <h6>Mona Lisa 9€</h6>
+                          <p>Steak frais 130g, camembert, cornichons, salade, tomates séchées, oignons caramélisés. Sauce au choix.</p>
+                        </div>
+                        <div class="menu-item col-md-6">
+                          <h6>Le Honey 10€</h6>
+                          <p>Steak frais 130g, fromage de chèvre, miel, cornichons, salade, tomates séchées, oignons caramélisés. Sauce au choix.</p>
+                        </div>
+                        <div class="menu-item col-md-6">
+                          <h6>Buffalo 11€</h6>
+                          <p>Steak frais 130g, bacon, cheddar, cornichons, salade, tomates séchées, oignons caramélisés. Sauce au choix.</p>
+                        </div>
+                        <div class="menu-item col-md-6">
+                          <h6>Gradella 13€</h6>
+                          <p>2 steaks frais 130g, cheddar, camembert, cornichons, salade, tomates séchées, oignons caramélisés. Sauce au choix.</p>
+                        </div>
+                        <div class="menu-item col-md-6">
+                          <h6>Al Pacino 14€</h6>
+                          <p>Steak frais 130g, champignon, piments marinés, cheddar, salade, tomates, oignons caramélisés. Sauce au choix.</p>
+                        </div>
+                        <div class="menu-item col-md-6">
+                          <h6>Truffe Burger 13€</h6>
+                          <p>Steak frais 130g, camembert, salade, tomates séchées, oignons caramélisés, cornichons. Sauce aux truffes.</p>
+                        </div>
+                        <div class="menu-item col-md-6">
+                          <h6>Upside Down 14€</h6>
+                          <p>Steak frais 130g, filet de poulet frais grillé façon Gradella, cheddar, cornichons, salade, tomates séchées, oignons caramélisés. Sauce au choix.</p>
+                        </div>
+                  </div>
+                    </div>
+                        <div class="tab-pane fade show" id="pills-smash" role="tabpanel" aria-labelledby="pills-home-tab">
+                            <div class="d-md-flex menu-container flex-wrap">
+                        <!-- Smash Burger Section -->
+                        <div class="menu-item col-md-6">
+                          <h6>Old Smash 10€</h6>
+                          <p>2 steaks frais 70g, cheddar, cornichons, oignons rouges grillés. Sauce recommandée: Biggy.</p>
+                        </div>
+                        <div class="menu-item col-md-6">
+                            <h6>Gold Smash 13€</h6>
+                            <p>3 steaks frais 70g, cheddar, cornichons, oignons rouges grillés. Sauce recommandée: Biggy.</p>
+                          </div>
+                        <div class="menu-item col-md-6">
+                          <h6>Big Smash 14€</h6>
+                          <p>4 steaks frais 70g, cheddar, cornichons, oignons rouges grillés. Sauce recommandée: Biggy.</p>
+                        </div>
+                        
+                      </div>
+                    </div>
+                    <!-- Additional Sections -->
+                    <div class="tab-pane fade" id="pills-naan" role="tabpanel" aria-labelledby="pills-naan-tab">
+                      <div class="d-md-flex flex-wrap menu-container">
+                        <div class="menu-item col-md-6">
+                          <h6>Naan fromage 3.5€</h6>
+                          <p>Accompagnement naan nature ou fromage.</p>
+                        </div>
+                        <div class="menu-item col-md-6">
+                          <h6>Les Classiques 7.5€</h6>
+                          <p>Kebab, Tandoori ou Curry.</p>
+                        </div>
+                        <div class="menu-item col-md-6">
+                          <h6>El Padré 10€</h6>
+                          <p>Filet de poulet frais grillé façon Gradella, cheddar, salade, tomates, oignons rouges, sauce au choix.</p>
+                        </div>
+                        <div class="menu-item col-md-6">
+                            <h6>THE UK 13.5€</h6>
+                            <p>Mix de poulet pané et poulet grillé, cheddar, salade, tomates, oignons rouges, sauce au choix.</p>
+                          </div>
+                          <div class="menu-item col-md-6">
+                            <h6>Gradella 9€</h6>
+                            <p>Steak frais 130g, cheddar, salade, tomates, oignons rouges. Sauce au choix.</p>
+                          </div>
+                          <div class="menu-item col-md-6">
+                            <h6>Le Naan Burger 10€</h6>
+                            <p>Steak frais 130g, cheddar, cornichons, salade, tomates, oignons caramélisés. Sauce au choix.</p>
+                          </div>
+                          <div class="menu-item col-md-6">
+                            <h6>Picasso 11€</h6>
+                            <p>Filet de poulet frais pané façon Gradella, cheddar, salade, tomates, oignons rouges, sauce au choix.</p>
+                          </div>
+                      </div>
+                    </div>
+                  
+                    <div class="tab-pane fade" id="pills-tacos" role="tabpanel" aria-labelledby="pills-tacos-tab">
+                      <div class="d-md-flex flex-wrap menu-container">
+                        <div class="menu-item col-md-6">
+                          <h6>Simple 9€</h6>
+                          <p>Viande au choix: Kebab, Viande Hachée, Cordon Bleu, Falafel, Nuggets, Tenders.</p>
+                        </div>
+                        <div class="menu-item col-md-6">
+                          <h6>Double 11€</h6>
+                          <p>Deux viandes au choix.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-assiettes" role="tabpanel" aria-labelledby="pills-assiettes-tab">
+                        <div class="d-md-flex menu-container">
+                          <div class="menu-item col-md-6">
+                            <h6>Viande au choix : Kebab, Tandoori, Curry.  9€</h6>
+                            <p>Salade, tomates, oignons rouges et fromage Feta.</p>
+                          </div>
+                          <div class="menu-item col-md-6">
+                            <h6>Salade au choix : Poulet grillé, Falafel, Chèvre-miel, Tenders 11.5€</h6>
+                            <p>Salade, tomates, oignons rouges, choux rouges, carottes grillées.</p>
+                          </div>
+                        </div>
+                    </div>                    
+                    <div class="tab-pane fade" id="pills-tapas" role="tabpanel" aria-labelledby="pills-tapas-tab">
+                      <div class="d-md-flex flex-wrap menu-container">
+                        <div class="menu-item col-md-6">
+                          <h6>Mozza Sticks 4pc. 3€ / 6pc. 5€</h6>
+                          <p>Delicious mozzarella sticks.</p>
+                        </div>
+                        <div class="menu-item col-md-6">
+                          <h6>Camembert Pané 4pc. 3€ / 6pc. 5€</h6>
+                          <p>Breaded camembert cheese bites.</p>
+                        </div>
+                        <div class="menu-item col-md-6">
+                          <h6>Nuggets 5pc. 4€ / 8pc. 7€</h6>
+                          <p>Chicken nuggets served hot and crispy.</p>
+                        </div>
+                        <div class="menu-item col-md-6">
+                          <h6>Crevettes Panées 4pc. 8€ / 6pc. 12€</h6>
+                          <p>Breaded shrimp.</p>
+                        </div>
+                        <div class="menu-item col-md-6">
+                          <h6>Wings 4pc. 8€ / 8pc. 12€</h6>
+                          <p>Spicy chicken wings.</p>
+                        </div>
+                        <div class="menu-item col-md-6">
+                          <h6>Tenders 4pc. 8€ / 8pc. 12€</h6>
+                          <p>Chicken tenders cooked to perfection.</p>
+                        </div>
+                        <div class="menu-item col-md-6">
+                          <h6>Oignons Rings 6pc. 4€ / 12pc. 7€</h6>
+                          <p>Golden fried onion rings.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Promotion End -->
+    <div class="container">
+        <div class="row py-5">
+            <div class="col-md-6">
+                <div class="row d-block text-center text-md-left">
+                    <h3 class="font-weight-bold mt-8 mb-4">Découvrez Nos Goûts</h3>
+                    <p class=" mb-4">Chacun fait à la perfection</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="h-100">
+                    <div class="row justify-content-center">
+                        <a href="tel:04 34 36 68 40" class="btn btn-secondary mt-4 mr-2 py-3"><i
+                                class="fa fa-phone mr-2"></i> Commandez</a>
+                        <a href="https://ubereats.app.link/D1VZwDGx7qb"
+                           class="btn btn-outline-primary mt-4 mr-2 py-3"><i
+                                class="fa fa-shopping-bag mr-2"></i> Uber Eats</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Footer Start -->
+<div class="container-fluid footer bg-light py-5">
+    <div class="container text-center py-5">
+        <div class="row">
+            <div class="col-12 mb-4">
+                <a href="index.html" class="navbar-brand m-0">
+                    <img src="img/GRADELLA-icon-only.png" height="200"/>
+                </a>
+            </div>
+            <div class="col-12 mb-4">
+                <a class="btn btn-outline-secondary btn-social mr-2" href="https://www.tiktok.com/@gradella_11"><i
+                        class="fab fa-tiktok"></i></a>
+                <a class="btn btn-outline-secondary btn-social mr-2" href="https://www.snapchat.com/add/gradella_11"><i
+                        class="fab fa-snapchat"></i></a>
+                <a class="btn btn-outline-secondary btn-social" href="https://www.instagram.com/gradella_11/"><i
+                        class="fab fa-instagram"></i></a>
+            </div>
+            <div class="col-12 mt-2 mb-4">
+                <div class="row">
+                    <div class="col-sm-6 text-center text-sm-right border-right mb-3 mb-sm-0">
+                        <h5 class="font-weight-bold mb-2">N'hesitez Pas</h5>
+                        <p class="mb-2"><a href="https://maps.app.goo.gl/MCQ3ameUsFU9Untw5" target="_blank">23 Place Thérèse Léon Blum,
+                            <br/> 11100 Narbonne, France</a></p>
+                        <p class="mb-0"><a href="tel:04 34 36 68 40">04 34 36 68 40</a></p>
+                    </div>
+                    <div class="col-sm-6 text-center text-sm-left">
+                        <h5 class="font-weight-bold mb-2">Nos Horaires</h5>
+                        <p class="mb-2">7j / 7 <br/> 11:30 - 15:00 <br/> 18:30 - 1:30</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <p class="m-0">&copy; <a href="/">Gradella</a>. All Rights Reserved.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer End -->
+
+<!-- Back to Top -->
+<a href="#" class="btn btn-secondary px-2 back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+<!-- JavaScript Libraries -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+<script src="lib/easing/easing.min.js"></script>
+<script src="lib/isotope/isotope.pkgd.min.js"></script>
+
+<!-- Template Javascript -->
+<script type="text/javascript" src="js/parallax.js"></script>
+<script src="js/main.js"></script>
+</body>
+
+</html>

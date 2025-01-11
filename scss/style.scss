@@ -178,7 +178,6 @@ h6,
 .home-page-header {
     background: url(../img/bg.jpg) #444 no-repeat center center;
   background-size: cover;
-  height: 40vw;
   min-height: 300px;
   display: flex;
   align-items: center;
@@ -231,6 +230,16 @@ h6,
   }
 }
 
+.menu-container {
+    h6 {
+        font-weight: 700 !important;
+    }
+    p {
+        font-size: small;
+    }
+
+}
+
 #menu-container {
 
     .carousel-inner {
@@ -256,10 +265,11 @@ h6,
     }
 
     .nav {
-        display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        gap: 10px;
         justify-content: center;
-        gap: 5px;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
 
         .nav-item {
             display: block;
@@ -271,29 +281,26 @@ h6,
                 background-color: inherit;
                 font-size: 1.3em;
                 font-weight: bolder;
-                padding: 30px;
-                color: $light;
+                padding: 10px;
+                color: $dark;
                 justify-content: space-between;
-
-                &:after {
-                    content: '\0276F';
-                    font-weight: lighter;
-                }
 
                 &:hover, &.active {
                     color: $primary;
-                    background-color: white;
+                    background-color: #ddd;
                 }
             }
         }
 
         @media (max-width: map-get($grid-breakpoints, "md") ) {
             flex-direction: row;
+            justify-content: flex-start;
+            padding: 0 10px;
             .nav-item .nav-link {
                 padding: 10px 20px;
                 flex-direction: column;
                 align-items: center;
-
+                font-size: 15px;
                 &:after {
                     content: '\0276F';
                     transform: rotateZ(90deg);
