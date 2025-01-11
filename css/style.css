@@ -9474,11 +9474,13 @@ h6,
   }
 }
 #menu-container .nav {
+  display: flex;
   flex-direction: row;
   gap: 10px;
   justify-content: center;
   flex-wrap: nowrap;
   overflow-x: scroll;
+  position: relative;
 }
 #menu-container .nav .nav-item {
   display: block;
@@ -9490,7 +9492,6 @@ h6,
   background-color: inherit;
   font-size: 1.3em;
   font-weight: bolder;
-  padding: 10px;
   color: #333333;
   justify-content: space-between;
 }
@@ -9503,9 +9504,10 @@ h6,
     flex-direction: row;
     justify-content: flex-start;
     padding: 0 10px;
+    padding-right: 60px;
   }
   #menu-container .nav .nav-item .nav-link {
-    padding: 10px 20px;
+    padding: 5px 10px;
     flex-direction: column;
     align-items: center;
     font-size: 15px;
@@ -9515,6 +9517,15 @@ h6,
     transform: rotateZ(90deg);
     font-size: 0.5em;
   }
+}
+
+.curtain {
+  position: absolute;
+  right: -10px;
+  top: 0;
+  bottom: 0;
+  width: 120px;
+  background: linear-gradient(90deg, rgba(2, 0, 36, 0) 0%, #F3F6FF 60%);
 }
 
 @media (max-width: 992px) {
