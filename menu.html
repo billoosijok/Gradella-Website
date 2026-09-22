@@ -113,41 +113,57 @@
                 <div class="position-relative">
                     <ul class="nav nav-pills mb-3 overflow-scroll align-items-center" id="pills-tab" role="tablist">
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link active" id="pills-home-tab" data-toggle="pill"
-                                    data-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                            <button class="nav-link active" id="pills-burger-tab" data-toggle="pill"
+                                    data-target="#pills-burger" type="button" role="tab" aria-controls="pills-burger"
                                     aria-selected="true">Burger
                             </button>
                         </li>
-                        
                         <li class="nav-item" role="presentation">
                             <button class="nav-link" id="pills-smash-tab" data-toggle="pill"
                                     data-target="#pills-smash" type="button" role="tab" aria-controls="pills-smash"
-                                    >Smash Burger
+                                    aria-selected="false">Smash Burger
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-frites-tab" data-toggle="pill"
+                                    data-target="#pills-frites" type="button" role="tab" aria-controls="pills-frites"
+                                    aria-selected="false">Frites Maison
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-naan-tab" data-toggle="pill"
+                                    data-target="#pills-naan" type="button" role="tab" aria-controls="pills-naan"
+                                    aria-selected="false">Naan
                             </button>
                         </li>
                         <li class="nav-item" role="presentation">
                             <button class="nav-link" id="pills-tacos-tab" data-toggle="pill"
                                     data-target="#pills-tacos" type="button" role="tab" aria-controls="pills-tacos"
-                                    >Tacos
+                                    aria-selected="false">Tacos
                             </button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="pills-profile-tab" data-toggle="pill"
-                                    data-target="#pills-naan" type="button" role="tab" aria-controls="pills-profile"
-                                    aria-selected="false">Naan
-                            </button>
-                        </li>
-                        
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="pills-contact-tab" data-toggle="pill"
-                                    data-target="#pills-tapas" type="button" role="tab" aria-controls="pills-contact"
+                            <button class="nav-link" id="pills-tapas-tab" data-toggle="pill"
+                                    data-target="#pills-tapas" type="button" role="tab" aria-controls="pills-tapas"
                                     aria-selected="false">Tapas
                             </button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="pills-contact-tab" data-toggle="pill"
-                                    data-target="#pills-assiettes" type="button" role="tab" aria-controls="pills-contact"
+                            <button class="nav-link" id="pills-assiettes-tab" data-toggle="pill"
+                                    data-target="#pills-assiettes" type="button" role="tab" aria-controls="pills-assiettes"
                                     aria-selected="false">Assiettes
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-supplements-tab" data-toggle="pill"
+                                    data-target="#pills-supplements" type="button" role="tab" aria-controls="pills-supplements"
+                                    aria-selected="false">Suppléments
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-enfants-tab" data-toggle="pill"
+                                    data-target="#pills-enfants" type="button" role="tab" aria-controls="pills-enfants"
+                                    aria-selected="false">Menu Enfants
                             </button>
                         </li>
                     </ul>
@@ -160,188 +176,255 @@
         <div class="container">
             <div class="px-0 px-md-5">
                 <div class="tab-content" id="pills-tabContent">
-                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-                      <div class="d-md-flex menu-container flex-wrap">
-                  
-                        <!-- Burgers Section -->
+                    <div class="tab-pane fade show active" id="pills-burger" role="tabpanel" aria-labelledby="pills-burger-tab">
+                      <p class="text-center small mb-4">Menu : frites maison &amp; boisson +3€</p>
+                      <div class="d-md-flex flex-wrap menu-container">
                         <div class="menu-item col-md-6">
-                          <h6>Cuba 8€</h6>
-                          <p>Steak frais 130g, cheddar, cornichons, salade, tomates, oignons caramélisés. Sauce au choix.</p>
+                          <h6>Cuba 8,50€</h6>
+                          <p>Steak frais 130g, cheddar, cornichons, salade, tomates, oignons caramélisés et sauce au choix.</p>
                         </div>
                         <div class="menu-item col-md-6">
-                          <h6>Mona Lisa 9€</h6>
-                          <p>Steak frais 130g, camembert, cornichons, salade, tomates séchées, oignons caramélisés. Sauce au choix.</p>
+                          <h6>Cheeseburger 5€</h6>
+                          <p>Steak frais 70g, cheddar, cornichons, oignons grillés et sauce Biggy.</p>
                         </div>
                         <div class="menu-item col-md-6">
-                          <h6>Le Honey 10€</h6>
-                          <p>Steak frais 130g, fromage de chèvre, miel, cornichons, salade, tomates séchées, oignons caramélisés. Sauce au choix.</p>
+                          <h6>César 9,50€</h6>
+                          <p>Filet de poulet frais pané croustillant, parmesan, salade et sauce César.</p>
                         </div>
                         <div class="menu-item col-md-6">
-                          <h6>Buffalo 11€</h6>
-                          <p>Steak frais 130g, bacon, cheddar, cornichons, salade, tomates séchées, oignons caramélisés. Sauce au choix.</p>
+                          <h6>Le Honey 10,50€</h6>
+                          <p>Steak frais 130g, fromage de chèvre, miel, cornichons, salade, tomates séchées, oignons caramélisés et sauce au choix.</p>
                         </div>
                         <div class="menu-item col-md-6">
-                          <h6>Gradella 13€</h6>
-                          <p>2 steaks frais 130g, cheddar, camembert, cornichons, salade, tomates séchées, oignons caramélisés. Sauce au choix.</p>
+                          <h6>Alaska 10,50€</h6>
+                          <p>Filet de poulet frais pané croustillant, galette de pommes de terre, cheddar, cornichons, salade, tomates, oignons rouges et sauce au choix.</p>
                         </div>
                         <div class="menu-item col-md-6">
-                          <h6>Al Pacino 14€</h6>
-                          <p>Steak frais 130g, champignon, piments marinés, cheddar, salade, tomates, oignons caramélisés. Sauce au choix.</p>
+                          <h6>Buffalo 11,50€</h6>
+                          <p>Steak frais 130g, bacon, cheddar, cornichons, salade, tomates séchées, oignons caramélisés et sauce au choix.</p>
                         </div>
                         <div class="menu-item col-md-6">
-                          <h6>Truffe Burger 13€</h6>
-                          <p>Steak frais 130g, camembert, salade, tomates séchées, oignons caramélisés, cornichons. Sauce aux truffes.</p>
+                          <h6>Da Vinci 14€</h6>
+                          <p>2 filets de poulet frais pané croustillant, cheddar, camembert, cornichons, coleslaw, tomates séchées, oignons rouges et sauce au choix.</p>
                         </div>
                         <div class="menu-item col-md-6">
-                          <h6>Upside Down 14€</h6>
-                          <p>Steak frais 130g, filet de poulet frais grillé façon Gradella, cheddar, cornichons, salade, tomates séchées, oignons caramélisés. Sauce au choix.</p>
+                          <h6><i class="fas fa-star text-warning mr-1"></i>Gradella 15€</h6>
+                          <p>2 steaks frais 130g, cheddar, camembert, cornichons, salade, tomates séchées, oignons caramélisés et sauce au choix.</p>
                         </div>
                         <div class="menu-item col-md-6">
-                          <h6>Dragon 8€</h6>
-                          <p>Filet de poulet frais grillé façon Gradella, cheddar, cornichons, salade, tomates, oignons rouges. Sauce au choix.</p>
-                        </div>
-                        
-                        <div class="menu-item col-md-6">
-                          <h6>Alaska 9,5€</h6>
-                          <p>Filet de poulet frais pané façon Gradella, cheddar, cornichons, salade, galette de pommes de terre, tomates, oignons rouges. Sauce au choix.</p>
-                        </div>
-                        
-                        <div class="menu-item col-md-6">
-                          <h6>Hot Chick 10€</h6>
-                          <p>Filet de poulet frais pané façon Gradella, cheddar, piments marinés, cornichons, salade, tomates, oignons rouges. Sauce au choix.</p>
-                        </div>
-                        
-                        <div class="menu-item col-md-6">
-                          <h6>Da Vinci 12€</h6>
-                          <p>2 filets de poulets frais pané façon Gradella, cheddar, camembert, cornichons, salade, tomates séchées, oignons rouges. Sauce au choix.</p>
+                          <h6><i class="fas fa-star text-warning mr-1"></i>Truffe 12€</h6>
+                          <p>Steak frais 130g, camembert, salade, tomates séchées, oignons caramélisés, cornichons et sauce aux truffes.</p>
                         </div>
                         <div class="menu-item col-md-6">
-                          <h6>Végé 9€</h6>
-                          <p>Steak vegan, cheddar vegan, cornichons, salade, tomates, oignons rouges. Sauce au choix.</p>
-                        </div>                        
-                  </div>
-                    </div>
-                    <div class="tab-pane fade" id="pills-tacos" role="tabpanel" aria-labelledby="pills-tacos-tab">
-                        <div class="d-md-flex menu-container">
-                          <div class="menu-item col-md-6">
-                            <h6>Simple 9€</h6>
-                            <p>Viande au choix: Kebab, Viande Hachée, Cordon Bleu, Falafel, Nuggets, Tenders.</p>
-                          </div>
-                          <div class="menu-item col-md-6">
-                            <h6>Double 11€</h6>
-                            <p>Deux viandes au choix.</p>
-                          </div>
+                          <h6>Mona Lisa 10,50€</h6>
+                          <p>Steak frais 130g, camembert, cornichons, salade, tomates séchées, oignons caramélisés et sauce au choix.</p>
+                        </div>
+                        <div class="menu-item col-md-6">
+                          <h6><i class="fas fa-leaf text-success mr-1"></i>Végé 10€</h6>
+                          <p>Steak végé, cheddar, cornichons, salade, tomates, oignons rouges et sauce au choix.</p>
+                        </div>
+                        <div class="menu-item col-md-6">
+                          <h6>Burger du Moment</h6>
+                          <p>Demandez la recette du moment.</p>
                         </div>
                       </div>
-                        <div class="tab-pane fade show" id="pills-smash" role="tabpanel" aria-labelledby="pills-home-tab">
-                            <div class="d-md-flex menu-container flex-wrap">
-                        <!-- Smash Burger Section -->
+                    </div>
+                    <div class="tab-pane fade" id="pills-smash" role="tabpanel" aria-labelledby="pills-smash-tab">
+                      <p class="text-center small mb-4">Menu : frites maison &amp; boisson +3€</p>
+                      <div class="d-md-flex flex-wrap menu-container">
                         <div class="menu-item col-md-6">
-                          <h6>Old Smash 10€</h6>
-                          <p>2 steaks frais 70g, cheddar, cornichons, oignons rouges grillés. Sauce recommandée: Biggy.</p>
+                          <h6>Old Smash 9€</h6>
+                          <p>2 steaks frais 70g, cheddar, cornichons, oignons grillés et sauce Biggy.</p>
                         </div>
                         <div class="menu-item col-md-6">
-                            <h6>Gold Smash 13€</h6>
-                            <p>3 steaks frais 70g, cheddar, cornichons, oignons rouges grillés. Sauce recommandée: Biggy.</p>
-                          </div>
+                          <h6>Suisse Smash 12€</h6>
+                          <p>2 steaks frais 70g, raclette, oignons rings, cornichons, oignons grillés et sauce Biggy.</p>
+                        </div>
+                        <div class="menu-item col-md-6">
+                          <h6><i class="fas fa-star text-warning mr-1"></i>Golden Smash 13€</h6>
+                          <p>3 steaks frais 70g, bacon, cheddar, cornichons, oignons grillés, oignons caramélisés et sauce Biggy.</p>
+                        </div>
                         <div class="menu-item col-md-6">
                           <h6>Big Smash 14€</h6>
-                          <p>4 steaks frais 70g, cheddar, cornichons, oignons rouges grillés. Sauce recommandée: Biggy.</p>
+                          <p>4 steaks frais 70g, cheddar, cornichons, oignons grillés, oignons caramélisés et sauce Biggy.</p>
                         </div>
-                        
                       </div>
                     </div>
-                    <!-- Additional Sections -->
+                    <div class="tab-pane fade" id="pills-frites" role="tabpanel" aria-labelledby="pills-frites-tab">
+                      <div class="d-md-flex flex-wrap menu-container">
+                        <div class="menu-item col-md-6">
+                          <h6>Classic M 3€ / L 5€</h6>
+                        </div>
+                        <div class="menu-item col-md-6">
+                          <h6>The Parmigiano M 4,50€ / L 7,50€</h6>
+                          <p>Parmesan, sauce truffe et jalapeños.</p>
+                        </div>
+                        <div class="menu-item col-md-6">
+                          <h6>The Crispy M 4,50€ / L 7,50€</h6>
+                          <p>Sauce cheddar, bacon et oignons frits.</p>
+                        </div>
+                        <div class="menu-item col-md-6">
+                          <h6>Loaded Frites 8€</h6>
+                          <p>Frites maison, steak smashé, cheddar, oignons caramélisés, jalapeños et sauce maison.</p>
+                        </div>
+                        <div class="menu-item col-md-6">
+                          <h6><i class="fas fa-star text-warning mr-1"></i>Frites Bolognaise 8€</h6>
+                          <p>Frites maison, bœuf haché et fromage râpé.</p>
+                        </div>
+                      </div>
+                    </div>
                     <div class="tab-pane fade" id="pills-naan" role="tabpanel" aria-labelledby="pills-naan-tab">
+                      <p class="text-center small mb-4">Menu : frites maison &amp; boisson +3€</p>
                       <div class="d-md-flex flex-wrap menu-container">
                         <div class="menu-item col-md-6">
-                          <h6>Naan fromage 3.5€</h6>
-                          <p>Accompagnement naan nature ou fromage.</p>
+                          <h6>Les Classiques </h6>
+                          <p>Kebab 7,50€ | Tandoori ou Curry 8,50€ | Maxi 9,50€. En naan (+1€) ou en galette.</p>
                         </div>
                         <div class="menu-item col-md-6">
-                          <h6>Les Classiques 7.5€</h6>
-                          <p>Kebab, Tandoori ou Curry.</p>
+                          <h6>Naan Fromage 3,50€</h6>
                         </div>
                         <div class="menu-item col-md-6">
-                          <h6>El Padré 10€</h6>
-                          <p>Filet de poulet frais grillé façon Gradella, cheddar, salade, tomates, oignons rouges, sauce au choix.</p>
+                          <h6><i class="fas fa-star text-warning mr-1"></i>Berliner Kebab 10,50€</h6>
+                          <p>Kebab, salade, légumes grillés, fromage feta et sauce blanche maison.</p>
+                          <p class="font-weight-bold">Coleslaw recommandé +0,50€</p>
                         </div>
                         <div class="menu-item col-md-6">
-                            <h6>THE UK 13.5€</h6>
-                            <p>Mix de poulet pané et poulet grillé, cheddar, salade, tomates, oignons rouges, sauce au choix.</p>
-                          </div>
-                          <div class="menu-item col-md-6">
-                            <h6>Gradella 9€</h6>
-                            <p>Steak frais 130g, cheddar, salade, tomates, oignons rouges. Sauce au choix.</p>
-                          </div>
-                          <div class="menu-item col-md-6">
-                            <h6>Le Naan Burger 10€</h6>
-                            <p>Steak frais 130g, cheddar, cornichons, salade, tomates, oignons caramélisés. Sauce au choix.</p>
-                          </div>
-                          <div class="menu-item col-md-6">
-                            <h6>Picasso 11€</h6>
-                            <p>Filet de poulet frais pané façon Gradella, cheddar, salade, tomates, oignons rouges, sauce au choix.</p>
-                          </div>
+                          <h6>The UK 14€</h6>
+                          <p>Mix de poulet pané et poulet grillé, cheddar, salade, tomates, oignons rouges et sauce au choix.</p>
+                        </div>
+                        <div class="menu-item col-md-6">
+                          <h6><i class="fas fa-star text-warning mr-1"></i>Gradella 10,50€</h6>
+                          <p>Steak frais 130g, raclette, oignons rings, salade, tomates, oignons rouges et sauce au choix.</p>
+                        </div>
+                        <div class="menu-item col-md-6">
+                          <h6>Le Naan Burger 11,50€</h6>
+                          <p>Steak frais 130g, cheddar, salade, tomates, oignons caramélisés et sauce au choix.</p>
+                        </div>
+                        <div class="menu-item col-md-6">
+                          <h6>Picasso 12€</h6>
+                          <p>Filet de poulet frais pané croustillant, cheddar, salade, tomates, oignons rouges et sauce au choix.</p>
+                        </div>
+                        <div class="menu-item col-md-6">
+                          <h6><i class="fas fa-star text-warning mr-1"></i>El Padré 11,50€</h6>
+                          <p>Filet de poulet frais grillé, cheddar, salade, tomates, oignons rouges et sauce au choix.</p>
+                        </div>
                       </div>
                     </div>
-                  
                     <div class="tab-pane fade" id="pills-tacos" role="tabpanel" aria-labelledby="pills-tacos-tab">
+                      <p class="text-center small mb-4">Viandes : Kebab, Viande Hachée, Cordon Bleu, Falafel, Nuggets, Tenders +1€, Poulet mariné maison +1€</p>
                       <div class="d-md-flex flex-wrap menu-container">
                         <div class="menu-item col-md-6">
-                          <h6>Simple 9€</h6>
-                          <p>Viande au choix: Kebab, Viande Hachée, Cordon Bleu, Falafel, Nuggets, Tenders.</p>
+                          <h6>Simple 9€ / Menu 10€</h6>
+                          <p>Une viande au choix.</p>
                         </div>
                         <div class="menu-item col-md-6">
-                          <h6>Double 11€</h6>
+                          <h6>Double 11€ / Menu 12€</h6>
                           <p>Deux viandes au choix.</p>
+                        </div>
+                        <div class="menu-item col-md-6">
+                          <h6>Triple 14€ / Menu 15€</h6>
+                          <p>Trois viandes au choix.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-tapas" role="tabpanel" aria-labelledby="pills-tapas-tab">
+                      <div class="d-md-flex flex-wrap menu-container">
+                        <div class="menu-item col-md-6">
+                          <h6>Mozza Sticks 4pc 3€ / 6pc 5€</h6>
+                        </div>
+                        <div class="menu-item col-md-6">
+                          <h6>Camembert Pané 4pc 3€ / 6pc 5€</h6>
+                        </div>
+                        <div class="menu-item col-md-6">
+                          <h6>Nuggets 5pc 4€ / 8pc 7€</h6>
+                        </div>
+                        <div class="menu-item col-md-6">
+                          <h6>Crevettes Panées 4pc 8€ / 6pc 10€</h6>
+                        </div>
+                        <div class="menu-item col-md-6">
+                          <h6>Tenders 4pc 8€ / 6pc 12€</h6>
+                        </div>
+                        <div class="menu-item col-md-6">
+                          <h6>Oignons Rings 6pc 4€ / 12pc 7€</h6>
+                        </div>
+                        <div class="menu-item col-md-6">
+                          <h6>Honey Mustard Wings 4pc 7€ / 6pc 10€</h6>
+                        </div>
+                        <div class="menu-item col-md-6">
+                          <h6>BBQ Wings 4pc 7€ / 6pc 10€</h6>
+                        </div>
+                        <div class="menu-item col-md-6">
+                          <h6>Maïs Grillé 2pc 5€ / 4pc 8€</h6>
                         </div>
                       </div>
                     </div>
                     <div class="tab-pane fade" id="pills-assiettes" role="tabpanel" aria-labelledby="pills-assiettes-tab">
-                        <div class="d-md-flex menu-container">
-                          <div class="menu-item col-md-6">
-                            <h6>Viande au choix : Kebab, Tandoori, Curry.  9€</h6>
-                            <p>Salade, tomates, oignons rouges et fromage Feta.</p>
-                          </div>
-                          <div class="menu-item col-md-6">
-                            <h6>Salade au choix : Poulet grillé, Falafel, Chèvre-miel, Tenders 11.5€</h6>
-                            <p>Salade, tomates, oignons rouges, choux rouges, carottes grillées.</p>
-                          </div>
-                        </div>
-                    </div>                    
-                    <div class="tab-pane fade" id="pills-tapas" role="tabpanel" aria-labelledby="pills-tapas-tab">
                       <div class="d-md-flex flex-wrap menu-container">
                         <div class="menu-item col-md-6">
-                          <h6>Mozza Sticks 4pc. 3€ / 6pc. 5€</h6>
-                          <p>Delicious mozzarella sticks.</p>
+                          <h6>Salade César 12€ / Menu 15€</h6>
+                          <p>Laitue fraîche, poulet frais pané croustillant, parmesan, croûtons et sauce César.</p>
                         </div>
                         <div class="menu-item col-md-6">
-                          <h6>Camembert Pané 4pc. 3€ / 6pc. 5€</h6>
-                          <p>Breaded camembert cheese bites.</p>
-                        </div>
-                        <div class="menu-item col-md-6">
-                          <h6>Nuggets 5pc. 4€ / 8pc. 7€</h6>
-                          <p>Chicken nuggets served hot and crispy.</p>
-                        </div>
-                        <div class="menu-item col-md-6">
-                          <h6>Crevettes Panées 4pc. 8€ / 6pc. 12€</h6>
-                          <p>Breaded shrimp.</p>
-                        </div>
-                        <div class="menu-item col-md-6">
-                          <h6>Wings 4pc. 8€ / 8pc. 12€</h6>
-                          <p>Spicy chicken wings.</p>
-                        </div>
-                        <div class="menu-item col-md-6">
-                          <h6>Tenders 4pc. 8€ / 8pc. 12€</h6>
-                          <p>Chicken tenders cooked to perfection.</p>
-                        </div>
-                        <div class="menu-item col-md-6">
-                          <h6>Oignons Rings 6pc. 4€ / 12pc. 7€</h6>
-                          <p>Golden fried onion rings.</p>
+                          <h6>Salade au choix : Kebab, Poulet grillé, Falafel, Chèvre miel 13€ / Menu 16€</h6>
+                          <p>Salade, tomates, oignons rouges, choux rouges, légumes grillés, maïs, grenade et fromage feta.</p>
                         </div>
                       </div>
                     </div>
-                  </div>
+                    <div class="tab-pane fade" id="pills-supplements" role="tabpanel" aria-labelledby="pills-supplements-tab">
+                      <div class="d-md-flex flex-wrap menu-container">
+                        <div class="menu-item col-md-6">
+                          <h6>Raclette +1€</h6>
+                        </div>
+                        <div class="menu-item col-md-6">
+                          <h6>Chèvre panko +2€</h6>
+                        </div>
+                        <div class="menu-item col-md-6">
+                          <h6>Bacon +1,50€</h6>
+                        </div>
+                        <div class="menu-item col-md-6">
+                          <h6>Coleslaw +1,50€</h6>
+                        </div>
+                        <div class="menu-item col-md-6">
+                          <h6>Oignons Caramélisés +1€</h6>
+                        </div>
+                        <div class="menu-item col-md-6">
+                          <h6>Miel +1€</h6>
+                        </div>
+                        <div class="menu-item col-md-6">
+                          <h6>Camembert +1€</h6>
+                        </div>
+                        <div class="menu-item col-md-6">
+                          <h6>Jalapeños +1€</h6>
+                        </div>
+                        <div class="menu-item col-md-6">
+                          <h6>Chèvre +1€</h6>
+                        </div>
+                        <div class="menu-item col-md-6">
+                          <h6>Galette de pommes de terre +1€</h6>
+                        </div>
+                        <div class="menu-item col-md-6">
+                          <h6>Œuf +1€</h6>
+                        </div>
+                        <div class="menu-item col-md-6">
+                          <h6>Cheddar +1€</h6>
+                        </div>
+                        <div class="menu-item col-md-6">
+                          <h6>Légumes grillés +1€</h6>
+                        </div>
+                        <div class="menu-item col-md-6">
+                          <h6>Steak ou Filet +3,50€</h6>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-enfants" role="tabpanel" aria-labelledby="pills-enfants-tab">
+                      <div class="d-md-flex flex-wrap menu-container">
+                        <div class="menu-item col-md-6">
+                          <h6>Menu Enfants 7€</h6>
+                          <p>Nuggets ou Mini burger. Servi avec frites et Capri-Sun.</p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
                   
             </div>
         </div>
